@@ -275,13 +275,13 @@ mvn exec:java -Dexec.mainClass="com.example.Consumer"
 
 Después de ejecutar el productor sin un consumidor activo, los mensajes se acumulan en la cola `orders`:
 
-![Dashboard con 5 mensajes Ready](images/dashboard_ready.png)
+![Dashboard con 5 mensajes Ready](images/dashboard.png)
 
 ### Cola vacía después de consumir
 
 Después de ejecutar el consumidor, todos los mensajes fueron procesados y confirmados:
 
-![Cola vacía después de consumir](images/queues_consumed.png)
+![Cola vacía después de consumir](images/queues.png)
 
 ### Salida del Productor
 
